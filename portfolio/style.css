@@ -9,20 +9,20 @@ body {
 
     height:100vh; /* Utilziar 100% da tela */
     box-sizing: border-box; /* Para os elementos filhos não ultrapassarem os elementos pais */
-    background-color: #5E69C2;
-    color: #E6F4F1;
+    background-color: #E5E7F4;
+    color: #343640;
     
 }
 
 .titulo-destaque {
-    color:#EEE8A9;
+    color:#987100;
 }
 
 .apresentacao {
     
     margin: 8% 5%; /* Primeiro valor eixo vertical, segundo valor eixo horizontal */
     display: flex; /* utilizando o flexbox para alinhar o conteúdo na página */
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
     
 }
@@ -59,14 +59,14 @@ body {
 
 .apresentacao__contatos__link {
 
-    background-color: #91A0FF;
+    background-color: #343640;
     width: 280px;
     text-align: center;
     border-radius: 16px;
     font-size: 24 px;
     padding: 21.5px 0; /* Primeiro valor eixo vertical, segundo valor eixo horizontal */
     text-decoration: none; /* Elimina a formatação do link */
-    color:#E6F4F1;
+    color:#C4CAEA;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
