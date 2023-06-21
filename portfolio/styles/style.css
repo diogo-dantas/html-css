@@ -59,6 +59,7 @@ body {
     display: flex; /* utilizando o flexbox para alinhar o conteúdo na página */
     align-items:center;
     justify-content: space-between;
+    gap: 82px;
     
 }
 
@@ -136,6 +137,7 @@ body {
 .apresentacao__fotoprincipal:hover{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    
 }
 
 .autoria{
@@ -151,4 +153,24 @@ body {
 .apresentacao__conteudo__texto__link{
     text-decoration: none;
     color:var(--cor-terciaria);
+}
+
+@media (max-width: 1200px ){ 
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+   
+    .apresentacao{
+        flex-direction: column-reverse;
+
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+
 }
